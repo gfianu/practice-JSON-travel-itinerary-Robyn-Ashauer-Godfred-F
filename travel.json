@@ -3,8 +3,8 @@
   "traveler": {
     "name": "Alex Johnson",
     "contact": {
-      "email": "alex.johnson@example.com",
-      "phone": "555-123-4567"
+     "email": "alex.johnson@example.com",
+     "phone": "555-123-4567"
     }
   },
   "destinations": [
@@ -12,6 +12,10 @@
       "location": "Paris",
       "arrivalDate": "2025-06-10",
       "departureDate": "2025-06-15",
+      "transportation" : {
+        "mode" : "private jet",
+        "cost" : 2000.00
+       },
       "activities": [
         {
           "title": "Visit Eiffel Tower",
@@ -27,6 +31,10 @@
       "location": "Rome",
       "arrivalDate": "2025-06-16",
       "departureDate": "2025-06-20",
+      "transportation" : {
+      "mode" : "private jet",
+      "cost" : 500.00
+    },
       "activities": [
         {
           "title": "Colosseum Tour",
@@ -34,6 +42,26 @@
         },
         {
           "title": "Vatican Museums",
+          "time": "1:00 PM"
+        }
+      ]
+    },
+
+        {
+      "location": "London",
+      "arrivalDate": "2025-07-16",
+      "departureDate": "2025-07-20",
+      "transportation" : {
+      "mode" : "private jet",
+      "cost" : 1500.00
+    },
+      "activities": [
+        {
+          "title": "Buckingham palace",
+          "time": "9:30 AM"
+        },
+        {
+          "title": "Museums",
           "time": "1:00 PM"
         }
       ]
